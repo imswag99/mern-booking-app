@@ -71,7 +71,7 @@ const PhotosUploader = ({addedPhotos, onChange}) => {
             <div className="h-32 flex relative" key={link}>
               <img
                 className="rounded-2xl w-full object-cover"
-                src={"http://localhost:4000/uploads/" + link}
+                src={"https://mern-booking-app-wl8d.onrender.com/uploads/" + link}
                 alt=""
               />
               <button onClick={(ev) => removePhoto(ev, link)} className="cursor-pointer absolute bottom-1 right-1 text-white bg-black bg-opacity-50 p-2 rounded-2xl">

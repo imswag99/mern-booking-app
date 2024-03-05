@@ -20,7 +20,7 @@ const IndexPage = () => {
               {place.photos?.[0] && (
                 <img
                   className="rounded-2xl aspect-square object-cover"
-                  src={"http://localhost:4000/uploads/" + place.photos?.[0]}
+                  src={"https://mern-booking-app-wl8d.onrender.com/uploads/" + place.photos?.[0]}
                   alt=""
                 />
               )}

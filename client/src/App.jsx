@@ -13,7 +13,7 @@ import SinglePlacePage from "./pages/SinglePlacePage.jsx";
 import BookingsPage from "./pages/BookingsPage.jsx";
 import SingleBookingPage from "./pages/SingleBookingPage.jsx";
 
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://mern-booking-app-wl8d.onrender.com/";
 axios.defaults.withCredentials = true;
 
 const App = () => {

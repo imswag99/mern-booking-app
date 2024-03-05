@@ -19,7 +19,7 @@ const PlaceGallery = ({place}) => {
           </div>
           {place?.photos?.length > 0 &&
             place.photos.map((photo) => (
-              <img src={`http://localhost:4000/uploads/${photo}`} alt="" />
+              <img src={`https://mern-booking-app-wl8d.onrender.com/uploads/${photo}`} alt="" />
             ))}
         </div>
       </div>
@@ -35,7 +35,7 @@ const PlaceGallery = ({place}) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="aspect-square object-cover cursor-pointer"
-                src={"http://localhost:4000/uploads/" + place.photos[0]}
+                src={"https://mern-booking-app-wl8d.onrender.com/uploads/" + place.photos[0]}
                 alt=""
               />
             </div>
@@ -46,7 +46,7 @@ const PlaceGallery = ({place}) => {
             <img
               onClick={() => setShowAllPhotos(true)}
               className="aspect-square object-cover cursor-pointer"
-              src={"http://localhost:4000/uploads/" + place.photos[1]}
+              src={"https://mern-booking-app-wl8d.onrender.com/uploads/" + place.photos[1]}
               alt=""
             />
           )}
@@ -55,7 +55,7 @@ const PlaceGallery = ({place}) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="aspect-square object-cover relative top-2 cursor-pointer"
-                src={"http://localhost:4000/uploads/" + place.photos[2]}
+                src={"https://mern-booking-app-wl8d.onrender.com/uploads/" + place.photos[2]}
                 alt=""
               />
             </div>

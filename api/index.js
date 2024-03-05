@@ -21,7 +21,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: "https://mern-booking-app-blond.vercel.app/",
+    origin: "https://mern-booking-app-blond.vercel.app",
   })
 );
 
